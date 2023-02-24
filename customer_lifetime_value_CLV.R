@@ -12,4 +12,6 @@ View(df)
 summary(df)
 
 # negative values and zero quantity
-plot(data = df, df$UnitPrice, df$Quantity)
+plot <- plot(data = df, df$UnitPrice, df$Quantity)
+
+plot
